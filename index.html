@@ -266,4 +266,4 @@ function signInLocal(){const name=document.querySelector('#login-name')?.value.t
 function signOutLocal(){state.sessionActive=false;save();render()}
 function render(){document.body.classList.toggle('login-mode',!state.sessionActive);if(!state.sessionActive){document.querySelector('#nav').innerHTML='';document.querySelector('#crumb').textContent='Academy / Sign in';document.querySelector('#content').innerHTML=loginPage();animateLoginStats();return}updateLearnerIdentity();renderCommon();lessonProgressRender();revealMotion()}
 save();render();
-</script><script src="programmes.js"></script></body></html>
+</script><script src="programmes.js?v=cd07534a"></script></body></html>
